@@ -7,8 +7,6 @@ export default function Home() {
       <Highlights />
 
       <Categories title={'Super Heróis'}/>
-      <Categories title={'Anti-Heróis'}/>
-      <Categories title={'Cósmico'}/>
     </main>
   )
 }

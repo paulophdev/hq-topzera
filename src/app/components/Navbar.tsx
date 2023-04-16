@@ -16,10 +16,10 @@ export default function Navbar() {
             </nav>
             <div className="flex gap-4 items-center">
                 <div>
-                    <Link href={'/'}><Search size={25} /></Link>
+                    <Link href={'/search'}><Search size={25} /></Link>
                 </div>
                 <div>
-                    <Link href={'/'}><BellRing size={25} /></Link>
+                    <Link href={'/notifications'}><BellRing size={25} /></Link>
                 </div>
                 <div>
                     <Link href={'/'}><User size={25} /></Link>
